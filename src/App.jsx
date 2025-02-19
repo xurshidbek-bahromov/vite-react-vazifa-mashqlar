@@ -1,36 +1,14 @@
 import React from "react";
 import "./App.css";
-
-const Avatar = ({ src, alt }) => <img className="avatar" src={src} alt={alt} />;
-
-const Greeting = ({ name = "Guest" }) => <h2 className="greeting">Hello, {name}!</h2>;
-
-const Box = ({ width, height, color }) => (
-  <div className="box" style={{ width, height, backgroundColor: color }}></div>
-);
-
-const Button = ({ onClick }) => <button className="button" onClick={onClick}>Click Me</button>;
-
-const Card = ({ children }) => <div className="card">{children}</div>;
-
-const List = ({ items }) => (
-  <ul className="list">
-    {items.map((item, index) => (
-      <li key={index}>{item}</li>
-    ))}
-  </ul>
-);
-
-const StatusMessage = ({ isSuccess }) => <p className={isSuccess ? "success" : "error"}>{isSuccess ? "Success!" : "Error!"}</p>;
-
-const Modal = ({ title, children }) => (
-  <div className="modal">
-    <h3>{title}</h3>
-    {children}
-  </div>
-);
-
-const IconButton = ({ icon, type }) => <button className="icon-button" type={type}>{icon}</button>;
+import Avatar from "./components/Avatar";
+import Greeting from "./components/Greeting";
+import Box from "./components/Box";
+import Button from "./components/Button";
+import Card from "./components/Card";
+import List from "./components/List";
+import StatusMessage from "./components/StatusMessage";
+import Modal from "./components/Modal";
+import IconButton from "./components/IconButton";
 
 function App() {
   return (
