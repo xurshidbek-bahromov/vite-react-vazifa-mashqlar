@@ -1,0 +1,114 @@
+body {
+  font-family: Verdana, sans-serif;
+  background-color: #292929bb;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 800px;
+  background: rgb(133, 133, 133);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  color: #ffffff;
+}
+
+.avatar {
+  display: block;
+  margin: 10px auto;
+  border-radius: 50%;
+}
+
+.greeting {
+  text-align: center;
+  color: #101010;
+}
+
+.box {
+  display: block;
+  margin: 10px auto;
+  border: 2px solid #000;
+}
+
+.button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 10px 0;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0 , 0.1);
+  color: #101010;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.list li {
+  padding: 8px;
+  background: #ddd;
+  margin: 5px 0;
+  border-radius: 5px;
+  color: #101010;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
+
+.modal {
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px 0;
+  background: #fff;
+  border-radius: 5px;
+  color: #101010;
+}
+
+.enhanced {
+  font-style: italic;
+  color: #777;
+}
+
+.icon-button {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 30%;
+  cursor: pointer;
+}
+
+.icon-button:hover {
+  background: #555;
+}
